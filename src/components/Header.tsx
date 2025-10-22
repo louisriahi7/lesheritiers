@@ -1,9 +1,7 @@
 import { ShoppingBag, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 export const Header = () => {
-  return (
-    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+  return <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <nav className="hidden md:flex gap-8">
@@ -22,9 +20,7 @@ export const Header = () => {
           </nav>
 
           <div className="flex-1 flex justify-center md:justify-start md:flex-initial">
-            <h1 className="text-xl font-serif tracking-tight">
-              notre succès
-            </h1>
+            <h1 className="text-xl font-serif tracking-tight">les heritiers</h1>
           </div>
 
           <div className="flex items-center gap-4">
@@ -45,6 +41,5 @@ export const Header = () => {
           Worldwide Shipping • 20,000+ Happy Customers • Autumn Collection Live
         </p>
       </div>
-    </header>
-  );
+    </header>;
 };
